@@ -75,6 +75,11 @@ a {
 	text-decoration: none;
 }
 
+b {
+	font-weight: 400;
+	color: #eee;
+}
+
 .header {
 	background: url('../img/cbble-header.png');
 	height: 360px;
@@ -180,6 +185,7 @@ a {
 	width: 1000px;
 	margin: auto;
 	padding: 40px 0;
+	font-size: 0;
 }
 
 .contact h1 {
@@ -191,5 +197,51 @@ a {
 }
 
 .contact p {
+	font-size: 20px;
 	color: #aaa;
+}
+
+form {
+	margin: 20px 0 8px;
+}
+
+input, select, textarea {
+	background: #fff;
+	border: 2px solid #ccc;
+	width: 49.5%;
+	padding: 10px;
+	font-family: 'Lato';
+	font-size: 20px;
+	font-weight: 400;
+	color: #6c737b;
+	margin: 0 1% 11px 0;
+}
+
+input, select {
+	height: 50px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	outline: none;
+}
+
+input:nth-child(2) {
+	margin-right: 0;
+}
+
+select:nth-child(4) {
+	margin-right: 0;
+}
+
+textarea {
+	width: 100%;
+	margin-right: 0;
+}
+
+input:last-child {
+	width: 100%;
+	background: #ccc;
+	border: 3px solid #ccc;
 }
