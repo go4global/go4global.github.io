@@ -54,37 +54,48 @@ table {
 html {
 	font-family: 'Lato';
 	font-size: 20px;
-	line-height: 0px;
+	line-height: 26px;
 	font-weight: 300;
 	color: #6c737b;
 }
 
+h1 {
+	font-size: 50px;
+	line-height: 45px;
+	color: #6f9db5;
+	margin-bottom: 20px;
+}
+
+p {
+	line-height: 26px;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
 .header {
 	background: url('../img/cbble-header.png');
-	height: 500px;
-	padding-top: 170px;
-}
-
-.header h1, h2 {
+	height: 360px;
+	padding-top: 45px;
 	text-align: center;
-	color: #fff;
-	font-family: 'Lato';
 }
 
-.header h1 {
-	font-size: 60px;
-	font-weight: 400;
+.welcome {
+	background: #eff3f6;
+	width: 100%;
 }
 
-.header h2 {
-	font-size: 44px;
-	font-weight: 300;
-	margin-top: 30px;
+.welcome .container {
+	margin: auto;
+	width: 1000px;
+	padding: 40px 0;
 }
 
 .ranks {
 	width: 100%;
-	background: #22446b;
+	background: #e7eaef;
 }
 
 .ranks-container {
@@ -99,7 +110,7 @@ html {
 	font-weight: 300;
 	font-size: 50px;
 	line-height: 45px;
-	color: #eee;
+	color: #6f9db5;
 	margin-bottom: 40px;
 }
 
@@ -107,7 +118,7 @@ html {
 	font-size: 20px;
 	display: inline-block;
 	width: 22%;
-	background: #eee;
+	background: #fff;
 	margin-right: 4%;
 	border-radius: 5px;
 	text-align: center;
@@ -118,7 +129,7 @@ html {
 	font-size: 24px;
 	font-weight: 400;
 	margin-bottom: 20px;
-	color: #6f9db5;
+	color: #293c4d;
 }
 
 .ranks-pricing h3 {
@@ -162,7 +173,7 @@ html {
 
 .contact {
 	width: 100%;
-	background: #22446b;
+	background: #2e3255;
 }
 
 .contact-container {
@@ -177,4 +188,8 @@ html {
 	font-size: 50px;
 	line-height: 45px;
 	color: #eee;
+}
+
+.contact p {
+	color: #aaa;
 }
