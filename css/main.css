@@ -68,6 +68,7 @@ h1 {
 
 p {
 	line-height: 26px;
+	font-size: 20px;
 }
 
 a {
@@ -128,6 +129,7 @@ b {
 	border-radius: 5px;
 	text-align: center;
 	padding: 20px;
+	margin-bottom: 20px;
 }
 
 .ranks-pricing h2 {
@@ -144,7 +146,7 @@ b {
 	font-weight: 400;
 }
 
-.ranks-pricing:last-child {
+.ranks-pricing:nth-child(5) {
 	margin-right: 0;
 }
 
