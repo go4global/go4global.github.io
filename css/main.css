@@ -209,7 +209,7 @@ form {
 
 input, select, textarea {
 	background: #fff;
-	border: 2px solid #ccc;
+	border: 0;
 	width: 49.5%;
 	padding: 10px;
 	font-family: 'Lato';
@@ -245,5 +245,4 @@ textarea {
 input:last-child {
 	width: 100%;
 	background: #ccc;
-	border: 3px solid #ccc;
 }
